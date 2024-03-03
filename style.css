@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38)) 100%;
+  min-height: 100vh;
+}
+
+.page {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 65px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  /*
+   * Alinha os elementos um em cada ponta da caixa, centralizando eles de maneira flexivel
+   * e se ajustando-se de forma automatica em cada dispositivo*/
+  justify-content: space-between;
+  margin-bottom: 58px;
+}
+
+nav ul {
+  font-family: "Mulish", sans-serif;
+  gap: 48px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  /*Tira o estilo da lista*/
+}
+nav ul li a {
+  opacity: 0.5;
+}
+nav ul li a:hover {
+  font-weight: bold;
+  opacity: 1;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  width: 490px;
+  font-family: "Mulish", sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  color: #1F1534;
+  font-weight: normal;
+}
+
+h1 span {
+  color: #89C5CC;
+  font-weight: bold;
+}
+
+.text p {
+  margin: 40px 0;
+}
+
+p {
+  width: 438px;
+  font-size: 14px;
+  color: #7D7987;
+  line-height: 28px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  background: #69B99D;
+  border: 0;
+  border-radius: 4px;
+  padding: 14px 32px 15px;
+
+  /* Transforma o texto em maiúsculo*/
+  text-transform: uppercase;
+  color: #FFF;
+  font-family: "Open Sans", sans-serif;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4EA788;
+}
+
+
+footer {
+  font-size: 14px;
+  margin-top: 100px;
+  line-height: 28px;
+  text-align: center;
+}
+
+footer a {
+  font-weight: bold;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+/* Estilo para todos os links */
+a {
+  color: #1F1534;
+  /*Tira os estilos do lins*/
+  text-decoration: none;
+}
